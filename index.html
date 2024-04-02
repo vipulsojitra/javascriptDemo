@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logo Animation</title>
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+      }
+
+      #container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+      }
+
+      #logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 10%;
+        height: 10%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <img id="logo" src="wizaart.gif" alt="Logo" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
